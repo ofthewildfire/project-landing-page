@@ -6,7 +6,6 @@
   border: none;
   box-sizing: border-box;
   list-style-type: none;
-  /* outline: 1px solid pink; */
 }
 
 :root {
@@ -172,4 +171,12 @@ a {
 .logo {
   height: auto;
   width: 12.5rem;
+}
+
+@media screen and (max-width: 60rem) {
+  #hero,
+  .blocks,
+  .cta-block {
+    flex-direction: column;
+  }
 }
